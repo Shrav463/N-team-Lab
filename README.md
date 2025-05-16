@@ -21,4 +21,21 @@ Our goal is to develop advanced therapeutic solutions for regenerative medicine 
 - Contact information for joining or collaborating with the lab
 
 ## 📁 Project Structure
+/
+├── Home.html
+├── Research.html
+├── LabMembers.html
+├── Publications.html
+├── NewsArchive.html
+├── Contact.html
+├── style.css
+├── images/
+└── Lab_website.js
+## 🚀 Getting Started
 
+To run this site locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Shrav463/N-team-Lab.git
+   cd N-team-Lab
