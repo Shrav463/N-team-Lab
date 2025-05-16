@@ -1,0 +1,131 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+  background-image: url("6638e77c648fe4a8cd4b6ce9_C1.svg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 10px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(95, 123, 236);
+  font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.description {
+  max-width: 800px;
+  font-family:'Times New Roman', Times, serif;
+  color: #181848;
+  font-weight: normal;
+  line-height: 1.7;
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+.description::after {
+  content: "";
+  display: block;
+  margin-top: 20px;
+}
+
+section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  line-height: 1.6;
+}
+
+section h2 {
+  margin-top: 0;
+  color: #002d72;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.news-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.news-entry {
+  flex: 1 1 45%;
+  background-color: #f1f5fb;
+  border-radius: 8px;
+  padding: 20px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 0.95em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.about-section img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.highlight-box {
+  border: 2px solid #004080;
+  background-color: #cce6ff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}

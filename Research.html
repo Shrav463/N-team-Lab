@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>N-TEAM Lab</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: #f8f9ff;
+    }
+
+    .lab-logo {
+      max-height: 90px;
+      margin-right: 20px;
+    }
+
+    .menu {
+      display: flex;
+      gap: 20px;
+      font-family:'Times New Roman', Times, serif;
+      font-size: 16px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #444;
+    }
+
+    #hero {
+      position: relative;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      transition: opacity 1s ease-in-out;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 5em;
+      font-weight: bold;
+      overflow: hidden;
+    }
+
+    #hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+
+    #hero span {
+      position: relative;
+      z-index: 2;
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .description {
+      max-width: 800px;
+      font-family:'Times New Roman', Times, serif;
+      color: #181848;
+      font-weight: normal;
+      line-height: 1.7;
+      text-align: justify;
+      font-size: 1.1em;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      line-height: 1.6;
+    }
+
+    section h2 {
+      margin-top: 0;
+      color: #002d72;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    .news-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .news-entry {
+      flex: 1 1 45%;
+      background-color: #f1f5fb;
+      border-radius: 8px;
+      padding: 20px;
+      font-family:'Times New Roman', Times, serif;
+      font-size: 0.95em;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-section {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .about-section img {
+      max-width: 200px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .about-text {
+      flex: 1;
+    }
+
+    .highlight-box {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      border: 2px solid #004080;
+      background-color: #e0f0ff;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+    }
+
+    .highlight-box img {
+      width: 40px;
+      height: 40px;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="Blue Modern Initial N Technology Logo.png" alt="N-TEAM Lab Logo" class="lab-logo" />
+    <nav class="menu">
+      <a href="Home.html">Home</a>
+      <a href="Research.html">Research</a>
+      <a href="Lab Members.html">Lab Members</a>
+      <a href="Publications.html">Publications</a>
+      <a href="News Archive.html">News Archive</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div id="hero"><span>Research</span></div>
+
+  <div class="flex-container">
+    <div class="description">
+      Our research group, led by Dr. Karrer Alghazali, focuses on biomaterials and tissue engineering strategies to create advanced therapeutic solutions for regenerative medicine. The team is engaged in innovative projects involving muscle regeneration, diabetic wound healing, and cancer tissue engineering, with the goal of developing next-generation treatments that address some of the most critical health challenges.
+    </div>
+  </div>
+
+  <section id="about">
+    <h2>About / Research Focus</h2>
+    <div class="about-section">
+      <div class="about-text">
+        <p>The N-TEAM Lab, led by Dr. Karrer Alghazali, focuses on advancing regenerative medicine and tissue engineering. Our mission is to develop innovative solutions that restore and repair damaged tissues, improving patient outcomes through interdisciplinary research.</p>
+
+        <p><strong>TEAM’s research program</strong> is centered on leveraging biomaterials and tissue engineering strategies to address critical challenges in regenerative medicine. The work spans three interconnected projects:</p>
+
+        <div class="highlight-box">
+          <img src="vml_icon.png" alt="VML Icon">
+          <div>
+            <strong>Volumetric Muscle Loss (VML):</strong><br>
+            Developing advanced 3D scaffolds integrated with regenerative cues to restore structure and function in severe muscle injuries. This includes bioinspired materials and fabrication techniques to promote vascularization, innervation, and muscle regeneration.
+          </div>
+        </div>
+
+        <div class="highlight-box">
+          <img src="wound_icon.png" alt="Wound Healing Icon">
+          <div>
+            <strong>Diabetic Wound Healing:</strong><br>
+            Focuses on treating chronic wounds in diabetic patients using hydrogel dressings, bioactive scaffolds, and controlled therapeutic release (e.g., exosomes, growth factors) to support angiogenesis and reduce inflammation.
+          </div>
+        </div>
+
+        <div class="highlight-box">
+          <img src="cancer_icon.png" alt="Cancer Tissue Icon">
+          <div>
+            <strong>Cancer Tissue Engineering:</strong><br>
+            Aims to reverse-engineer the tumor microenvironment to study cancer tissue growth and metastasis, using these insights to develop biomimetic scaffolds for regenerative and therapeutic applications.
+          </div>
+        </div>
+      </div>
+
+      <img src="Professor_pic.png" alt="Professor Picture">
+    </div>
+  </section>
+
+  <section id="pi">
+    <h2>Principal Investigator</h2>
+    <h3>Dr. Karrer Alghazali</h3>
+    <p>Dr. Karrer Alghazali is the Principal Investigator of N-TEAM Lab. His research integrates biomaterials, scaffold fabrication, and spectroscopic technologies to advance tissue regeneration. Dr. Alghazali's projects focus on muscle regeneration, diabetic wound healing, and cancer tissue engineering.</p>
+  </section>
+
+  <section id="Contact">
+    <h2>Join Us</h2>
+    <p>We welcome motivated students and researchers to join the N-TEAM Lab. If you're interested in contributing to our projects or pursuing research with us, please contact Dr. Karrer Alghazali.</p>
+    <button><a href="#contact.html">Contact</a></button>
+  </section>
+
+  <script src="Lab_website.js"></script>
+</body>
+</html>

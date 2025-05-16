@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Members | N-TEAM Lab</title>
+    <style>
+        body {
+            margin: 0;
+            font-family:'Times New Roman', Times, serif;
+            background-color: #fff;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 40px;
+            flex-wrap: wrap;
+        }
+        .lab-logo {
+            max-height: 90px;
+        }
+        nav.menu {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        nav.menu a {
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 16px;
+        }
+
+        nav.menu a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            position: relative;
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 4em;
+            font-weight: bold;
+            z-index: 1;
+            transition: background-image 1s ease-in-out;
+        }
+
+        .container::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+        }
+
+        .section-title {
+            color: #002d72;
+            padding: 20px 30px 10px;
+            font-size: 20px;
+            font-weight: bold;
+            border-bottom: 2px solid #ccc;
+            background-color: transparent;
+        }
+
+        .member {
+            display: flex;
+            padding: 30px;
+            border-bottom: 1px solid #ddd;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .member img {
+            width: 150px;
+            border-radius: 5px;
+        }
+
+        .member-info {
+            max-width: 800px;
+        }
+
+        .member-info h3 {
+            margin: 5px 0;
+            color: #002d72;
+        }
+
+        .member-info p {
+            margin: 4px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="Blue Modern Initial N Technology Logo.png" alt="N-TEAM Lab Logo" class="lab-logo" />
+    <nav class="menu">
+        <a href="Home.html">Home</a>
+        <a href="Research.html">Research</a>
+        <a href="Lab Members.html">Lab Members</a>
+        <a href="Publications.html">Publications</a>
+        <a href="News Archive.html">News Archive</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="container" id="hero">Lab Members</div>
+
+<div class="section-title">Principal Investigator</div>
+<div class="member">
+    <img src="Professor_pic.png" alt="Dr. Karrer Alghazali">
+    <div class="member-info">
+        <h3>Dr. Karrer Alghazali</h3>
+        <p><strong>Title:</strong> Assistant Professor</p>
+        <p><strong>Department:</strong> Bioengineering</p>
+        <p><strong>Campus:</strong> New York City</p>
+        <p><strong>Expertise:</strong> Tissue Engineering, Regenerative Medicine, Medical Device Development, Biomaterials</p>
+        <p><strong>Education:</strong> Ph.D.</p>
+        <p><strong>Joined:</strong> 2024</p>
+    </div>
+</div>
+
+<div class="section-title">Current Lab Members</div>
+<div class="member">
+    <img src="member1.jpg" alt="Lab Member">
+    <div class="member-info">
+        <h3>Chris DCosta</h3>
+        <p>Master of Science in Bioengineering, New York Institute of Technology</p>
+    </div>
+</div>
+
+<div class="member">
+    <img src="member2.jpg" alt="Lab Member">
+    <div class="member-info">
+        <h3>Vic Valera</h3>
+        <p>Bachelor of Science in Bioengineering, New York Institute of Technology</p>
+    </div>
+</div>
+
+<div class="member">
+    <img src="member3.jpg" alt="Lab Member">
+    <div class="member-info">
+        <h3>Matthew Duazo</h3>
+        <p>Doctor of Osteopathic Medicine (D.O.), New York Institute of Technology</p>
+    </div>
+</div>
+
+<div class="member">
+    <img src="WhatsApp Image 2025-05-11 at 7.31.32 PM.jpeg" alt="Lab Member">
+    <div class="member-info">
+        <h3>Shravani Kalisetty</h3>
+        <p>Master of Science in Computer Science, New York Institute of Technology</p>
+    </div>
+</div>
+<footer>
+    &copy; 2025 N-TEAM Lab | New York Institute of Technology
+</footer>
+<script src="Lab_website.js"></script>
+</body>
+</html>
